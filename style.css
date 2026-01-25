@@ -1,34 +1,78 @@
-.nav {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-nav a {
-    color: black;
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: normal;
-    border-left-width: 2px;
-} 
-
-html {
-    scroll-behavior: smooth;
+/*標題區*/
+header {
+    background-color: rgb(99, 66, 9); /* 換成你想要的顏色，例如淺灰色 */
+    padding: 40px 0 20px 0;    /* 增加上下間距 */
+    text-align: center;
 }
 
 .title-1 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold; 
     font-size: 70px;
-    color: rgb(123, 81, 4);
+    color: white;
     text-align: center;
-    margin-bottom: 0%;
-
+    line-height: 1;
+    margin-bottom: 0;
 }
 
 .title-2 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 22px;
+    color: white;
+    font-size: 20px;
     text-align: center;
-    margin-top: 0%;
-    margin: bottom 0.5em;
+    margin-top: 0;
+    
+}
+
+
+/*導覽列*/
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(123, 81, 4); 
+    padding: 15px 0;
+    border-top: 1px solid white;
+    
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav a {
+    font-size: 22px;
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+/*內文*/
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+.section {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 34px;
+    font-weight: bold;
+    text-align: center;
+    margin:50px;
+}
+
+.passage {
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 20px;
+}
+
+
+.footer {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(99, 66, 9);
+    padding: 35px 0 20px 0;
 }
