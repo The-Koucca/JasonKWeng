@@ -62,10 +62,18 @@ body {
     margin:50px;
 }
 
+.photo {
+    width: 65%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
 .passage {
     margin-left: 40px;
     margin-right: 40px;
     font-size: 20px;
+    line-height: 1.5em;
 }
 
 
