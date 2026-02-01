@@ -71,6 +71,7 @@ body {
     height: auto;
     display: block;
     margin: 0 auto;
+    border: 0.5em solid rgb(67, 9, 2)
 }
 
 .passage {
